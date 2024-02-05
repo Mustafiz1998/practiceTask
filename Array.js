@@ -566,3 +566,76 @@
 //     console.log(arr,item);
 //  });
 
+//==================Array or Loops=============//
+
+const arr = [1,2,3,4,5];
+
+for(const num of arr){
+    // console.log(num);
+}
+
+
+const greetings = 'Hello World';
+
+for(const greet of greetings){
+    
+    if(greet ===''){
+        continue;
+    }
+    // console.log(`Each char is ${greet}`);
+}
+
+
+//=========Maps============//
+
+// const map = new Map()
+// map.set('In', 'India')
+// map.set('Usa', 'United States of America');
+// map.set('Fr', 'France')
+// map.set('In', 'India')//same key, value second time neowa jaina, always give uniqe value
+
+// console.log(map);
+
+// for(const [key, value] of map){
+//     // console.log(key, ':', value);
+// }
+
+
+// const myObject = {
+//     'game1': 'Nfs',
+//     'game2': 'Spiderman'
+// }
+
+// for(const [key, value] of myObject){
+//     // console.log(key, ':', value);//object not iterable
+// }
+
+// const myObject = {
+//     js: 'javascript',
+//     cpp: 'C++',
+//     rb: 'ruby',
+//     swift: 'swift by apple'
+// }
+// for(const key in myObject){
+//     console.log(key);
+// }
+
+
+//  const map = new Map()
+// map.set('In', 'India')
+// map.set('Usa', 'United States of America');
+// map.set('Fr', 'France')
+// map.set('In', 'India')//same key, value second time neowa jaina, always give uniqe value
+
+// for (const key in map){//not iterable
+//     console.log(key);
+// }
+
+
+//forEach:
+// const coding = ['js', 'ruby', 'java', 'python'];
+
+// coding.forEach((e) =>{
+//     console.log(e);
+// })
+
